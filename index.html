@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="Styling/index.css" />
+    <link rel="stylesheet" href="utils/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Fonts/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="Fonts/css/all.css" />
+  </head>
+
+  <body>
+    <div class="container position-relative" id="div-message">
+      <div class="text-start position-absolute end-0" id="div-sub-message">
+        <p id="txt-message">
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <b id="error-message"> &nbsp;&nbsp;Message</b>
+          <img
+            width="30px"
+            height="30px"
+            class="rounded-circle"
+            id="error-icon"
+          />
+        </p>
+      </div>
+    </div>
+
+    <!-- horizontal alignment -->
+    <div class="container text-center" id="div-signIn">
+      <!-- vertical alignment -->
+      <div class="row align-items-center" id="div-signIn-row">
+        <div class="col-sm" id="div-signIn-img">
+          <img
+            src="Images/logo1.jpg"
+            class="rounded-circle"
+            width="150px"
+            height="150px"
+          />
+          <h2 class="text-dark" id="txt-signIn">
+            <b
+              ><span id="txt-bloom">Bloom-</span
+              ><span id="txt-merge">MERGE</span> <i class="fas fa-paw"></i
+            ></b>
+          </h2>
+          <p id="txt-logo-title">
+            <span id="txt-create"
+              ><i class="fas fa-spinner fa-pulse"></i> Create </span
+            ><span id="txt-think">
+              <i class="fas fa-spinner fa-pulse"></i> Think</span
+            ><span id="txt-recreate">
+              <i class="fas fa-spinner fa-pulse"></i> Recreate</span
+            >
+          </p>
+        </div>
+        <div class="col-sm" id="div-signIn-form">
+          <div class="container text-center mt-3">
+            <h2 class="text-dark" id="txt-signIn">
+              <b>Sign In</b
+              ><img src="Images/gif1.gif" width="50px" height="40px" />
+            </h2>
+            <p>Welcome back to Sign in page</p>
+          </div>
+          <div class="container text-center mt-5" id="div-form">
+            <div class="container text-start mt-5" id="div-form-content1">
+              <label><b>Email</b></label>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Enter email"
+                id="txt-email"
+              />
+            </div>
+            <div class="container text-start mt-5" id="div-form-content2">
+              <label><b>Password</b></label>
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Enter password"
+                id="txt-password"
+              />
+            </div>
+            <div class="container text-center mt-5" id="div-form-content3">
+              <button class="btn btn-dark btn-lg" id="btn-signIn">
+                <b>Sign In <i class="fas fa-sign-in"></i></b>
+              </button>
+            </div>
+
+            <div class="container text-center mt-2" id="div-form-content4">
+              <p>
+                Create Account Instead?
+                <a href="loading.html">
+                  <button class="btn btn-link" id="btn-signUp">Sign Up</button>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="Js/index.js"></script>
+</html>
